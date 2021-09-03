@@ -5,7 +5,7 @@ import java.util.Scanner;
  *    Copyright 2021 Sean Moore
  */
 
-public class solution05 {
+public class Solution05 {
 /*
     Create an Application that takes two number strings as input
     Use Integer.parseInt() to convert strings to integers
