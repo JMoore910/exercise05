@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*
+ *    UCF  COP3330 Fall 2021 Assignment 1 Solution02
+ *    Copyright 2021 Sean Moore
+ */
+
 public class solution05 {
 /*
     Create an Application that takes two number strings as input
@@ -11,16 +16,14 @@ public class solution05 {
  */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String num1,num2;
+        String s1,s2;
         System.out.printf("What is the first number? ");
-        num1 = input.nextLine();
+        s1 = input.nextLine();
         System.out.printf("What is the second number? ");
-        num2 = input.nextLine();
-        int num01,num02;
-        num01 = Integer.parseInt(num1);
-        num02 = Integer.parseInt(num2);
-        System.out.printf("%d + %d = %d%n%d - %d = %d%n%d * %d = %d%n%d / %d = %d",num01,num02,num01+num02,num01,num02,num01-num02,num01,num02,num01*num02,num01,num02,num01/num02);
-
+        s2 = input.nextLine();
+        int i1,i2;
+        i1 = Integer.parseInt(n1);
+        i2 = Integer.parseInt(n2);
+        System.out.printf("%d + %d = %d%n%d - %d = %d%n%d * %d = %d%n%d / %d = %d",s1,s2,i1+i2,s1,s2,i1-i2,s1,s2,i1*i2,s1,s2,i1/i2); //"THERE CAN ONLY BE ONE," Clancy Brown Screams as he types out the longest print statement ever written on a single line.
     }
-
 }
