@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import static java.lang.Integer.parseInt;
 
 /*
  *    UCF  COP3330 Fall 2021 Assignment 1 Solution05
